@@ -15,7 +15,8 @@ def about():
 
 @app.route('/all')
 def all():
-    return render_template('all.html', title='alltitle')
+    allProducts = db.all()
+    return render_template('all.html', title='alltitle', allProducts=allProducts)
 
 @app.route('/health')
 def health():
