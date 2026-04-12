@@ -1,5 +1,5 @@
 
-# Useful Commands:
+# Useful Commands:s
 
 Run app.py and start a test server:
 ```python -m flask run```
@@ -15,6 +15,25 @@ Create virtual environment:
 
 activate environment:
 ```env\scripts\activate```
+
+# Adding a product
+
+```http://127.0.0.1:5000/addProduct```
+
+JSON:
+
+```
+{
+  "name": "Crisps",
+  "product_code": 1234,
+  "category": "food",
+  "price": 1.2,
+  "stock": 15,
+  "sugar_g": 2,
+  "gluten_free": true,
+  "brand": "CrunchyCo"
+}
+```
 
 
 # Useful links:

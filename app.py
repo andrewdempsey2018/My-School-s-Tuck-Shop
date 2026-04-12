@@ -1,22 +1,40 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, jsonify
+from flask_tinydb import TinyDB
 
 app = Flask(__name__)
+db = TinyDB(app).get_db()
 
 @app.route('/')
 def index():
-    name = 'Clarence Bodiker'
+    name = 'test name'
     return render_template('index.html', title='Welcome', username=name)
 
 @app.route('/about')
 def about():
-    name = 'Clarence Bodiker'
-    return render_template('about.html', title='aoutere', username=name)
+    return render_template('about.html', title='aoutere')
 
 @app.route('/all')
 def all():
-    name = 'asdf adf'
-    return render_template('all.html', title='alltitle', username=name)
+    return render_template('all.html', title='alltitle')
 
-@app.route("/test")
-def hello_world():
-    return "<p>Hello, school!</p>"
+@app.route('/health')
+def health():
+    return render_template('health.html')
+
+@app.route('/budget')
+def budget():
+    return render_template('budget.html')
+
+@app.route('/special')
+def special():
+    return render_template('special.html')
+
+@app.route('/addProduct', methods=['GET', 'POST'])
+def addProduct():
+    content = request.json
+    db.insert(content)
+    return f"added product to db"
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
