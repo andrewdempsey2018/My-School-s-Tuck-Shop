@@ -91,6 +91,14 @@
   }
 }
 
+.a_pink{
+  background-color: #c7395f;
+}
+
+.a_orange{
+  background-color: #e8ba40;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);

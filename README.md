@@ -2,8 +2,21 @@
 
 ## Tuck Shop API Demo Application for TY Students!
 
+# Screenshot
+
 ![alt text](image.png)
 
+# Screenshot 2
+
+![alt text](image-2.png)
+
+# Screenshot 3
+
+![alt text](image-3.png)
+
+# Color scheme:
+
+![alt text](image-1.png)
 
 # Useful Commands:s
 
@@ -49,3 +62,6 @@ https://flask.palletsprojects.com/en/stable/
 
 Flask-tinydb’s documentation
 https://flask-tinydb.readthedocs.io/
+
+Assets
+https://www.svgrepo.com/

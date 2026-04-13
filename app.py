@@ -6,28 +6,28 @@ db = TinyDB(app).get_db()
 
 @app.route('/')
 def index():
-    return render_template('index.html', show_cards=False)
+    return render_template('index.html')
 
 @app.route('/about')
 def about():
-    return render_template('about.html', show_cards=False)
+    return render_template('about.html')
 
 @app.route('/all')
 def all():
     products = db.all()
-    return render_template('all.html', products=products, show_cards=True)
+    return render_template('all.html', products=products)
 
 @app.route('/health')
 def health():
-    return render_template('health.html', show_cards=True)
+    return render_template('health.html')
 
 @app.route('/budget')
 def budget():
-    return render_template('budget.html', show_cards=True)
+    return render_template('budget.html')
 
 @app.route('/special')
 def special():
-    return render_template('special.html', show_cards=True)
+    return render_template('special.html')
 
 @app.route('/addProduct', methods=['GET', 'POST'])
 def addProduct():
@@ -37,4 +37,4 @@ def addProduct():
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return render_template('404.html', show_cards=True), 404
+    return render_template('404.html'), 404
