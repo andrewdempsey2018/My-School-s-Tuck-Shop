@@ -1,0 +1,48 @@
+{
+    "_default": {
+        "1": {
+            "title": "Tayto Crisps",
+            "product_code": 1234,
+            "flavor": "Cheese & Onion",
+            "category": "food",
+            "price": 1.2,
+            "stock": 15,
+            "sugar_g": 2,
+            "gluten_free": false,
+            "brand": "Tayto"
+        },
+        "2": {
+            "title": "King Crisps",
+            "product_code": 5678,
+            "flavor": "Salt & Vinegar",
+            "category": "food",
+            "price": 1.1,
+            "stock": 10,
+            "sugar_g": 3,
+            "gluten_free": false,
+            "brand": "King"
+        },
+        "3": {
+            "title": "Coca Cola",
+            "product_code": 54687,
+            "flavor": "Cola",
+            "category": "drink",
+            "price": 1.0,
+            "stock": 50,
+            "sugar_g": 7,
+            "gluten_free": false,
+            "brand": "Coca Cola"
+        },
+        "4": {
+            "title": "Wrigleys Extra",
+            "product_code": 89797,
+            "flavor": "Mint",
+            "category": "other",
+            "price": 0.6,
+            "stock": 30,
+            "sugar_g": 5,
+            "gluten_free": false,
+            "brand": "Wrigleys"
+        }
+    }
+}
