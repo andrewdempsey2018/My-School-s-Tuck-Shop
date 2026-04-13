@@ -29,6 +29,7 @@ Run app.py and start the debug server (auto reload of changes):
 Run this if you add new dependencies:
 ```pip freeze > requirements.txt```
 
+Run this if you add new dependencies:
 ```pip3 install -r requirements.txt```
 
 Create virtual environment:
