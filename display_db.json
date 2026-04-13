@@ -43,6 +43,94 @@
             "sugar_g": 5,
             "gluten_free": false,
             "brand": "Wrigleys"
+        },
+        "5": {
+            "product": "Wrigleys Extra",
+            "product_code": 89797,
+            "flavor": "Mint",
+            "category": "other",
+            "price": 0.6,
+            "stock": 30,
+            "sugar_g": 5,
+            "gluten_free": false,
+            "brand": "Wrigleys"
+        },
+        "6": {
+            "product": "Wrigleys Extra",
+            "product_code": 89797,
+            "flavor": "Mint",
+            "category": "other",
+            "price": 0.6,
+            "stock": 30,
+            "sugar_g": 5,
+            "gluten_free": false,
+            "brand": "Wrigleys"
+        },
+        "7": {
+            "product": "Wrigleys Extra",
+            "product_code": 89797,
+            "flavor": "Mint",
+            "category": "other",
+            "price": 0.6,
+            "stock": 30,
+            "sugar_g": 5,
+            "gluten_free": false,
+            "brand": "Wrigleys"
+        },
+        "8": {
+            "product": "Wrigleys Extra",
+            "product_code": 89797,
+            "flavor": "Mint",
+            "category": "other",
+            "price": 0.6,
+            "stock": 30,
+            "sugar_g": 5,
+            "gluten_free": false,
+            "brand": "Wrigleys"
+        },
+        "9": {
+            "product": "Wrigleys Extra",
+            "product_code": 89797,
+            "flavor": "Mint",
+            "category": "other",
+            "price": 0.6,
+            "stock": 30,
+            "sugar_g": 5,
+            "gluten_free": false,
+            "brand": "Wrigleys"
+        },
+        "10": {
+            "product": "Wrigleys Extra",
+            "product_code": 89797,
+            "flavor": "Mint",
+            "category": "other",
+            "price": 0.6,
+            "stock": 30,
+            "sugar_g": 5,
+            "gluten_free": false,
+            "brand": "Wrigleys"
+        },
+        "11": {
+            "product": "Wrigleys Extra",
+            "product_code": 89797,
+            "flavor": "Mint",
+            "category": "other",
+            "price": 0.6,
+            "stock": 30,
+            "sugar_g": 5,
+            "gluten_free": false,
+            "brand": "Wrigleys"
+        },
+        "12": {
+            "product": "Wrigleys Extra",
+            "product_code": 89797,
+            "flavor": "Mint",
+            "category": "other",
+            "price": 0.6,
+            "stock": 30,
+            "sugar_g": 5,
+            "gluten_free": false,
+            "brand": "Wrigleys"
         }
     }
 }
